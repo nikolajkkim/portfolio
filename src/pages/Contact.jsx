@@ -12,10 +12,12 @@ const Contact = () => {
 				duration: 0.5,
 				delay: 0.1,
 			}}
-			className="container mx-auto flex flex-col-reverse lg:flex-row py-5 lg:py-10 lg:mt-10"
+			// className="container mx-auto flex flex-col-reverse lg:flex-row py-5 lg:py-10 lg:mt-10"
+			className="container mx-auto flex justify-center items-center py-5 lg:py-10 lg:mt-10"
+
 		>
 			<ContactForm />
-			<ContactDetails />
+			{/* <ContactDetails /> */}
 		</motion.div>
 	);
 };
